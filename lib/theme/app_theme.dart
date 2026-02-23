@@ -7,6 +7,7 @@ class AppTheme {
       useMaterial3: true,
       extensions: <ThemeExtension<dynamic>>[
         AppColors.light(),
+        AppTextStyles.base(),
       ],
     );
   }
