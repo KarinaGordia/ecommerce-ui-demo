@@ -1,6 +1,3 @@
-import 'package:freezed_annotation/freezed_annotation.dart';
-
-
 export 'entities/user_model.dart';
 export 'entities/order_model.dart';
 export 'entities/notifications_model.dart';
