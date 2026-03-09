@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:forma/theme/theme.dart';
+
+import '../core.dart';
 
 class AppTheme {
   static ThemeData lightTheme() {

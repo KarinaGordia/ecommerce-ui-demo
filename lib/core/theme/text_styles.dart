@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:forma/theme/theme.dart';
+
+import '../core.dart';
+
 
 extension ThemeTextStyles on BuildContext {
   AppTextStyles get textStyles => Theme.of(this).extension<AppTextStyles>()!;

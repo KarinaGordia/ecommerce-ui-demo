@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:forma/theme/theme.dart';
+
+import '../core.dart';
 
 extension ThemeColors on BuildContext {
   AppColors get colors => Theme.of(this).extension<AppColors>()!;
